@@ -23,7 +23,16 @@ public class notificationService {
 
     public  notification  getNOtification()
     {
-        ResponseEntity<notification> res=restTemplate.exchange(url, HttpMethod.GET,HttpEntity.EMPTY,notification.class);
+        ResponseEntity<notification> res;
+        try {
+            res = restTemplate.exchange(url, HttpMethod.GET, HttpEntity.EMPTY, notification.class);
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+            return new notification( "Notification fetching service is Down","Alert");
+        }
+
         return res.getBody();
     }
 
