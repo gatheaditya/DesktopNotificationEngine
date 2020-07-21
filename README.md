@@ -1,6 +1,6 @@
 <b>Desktop Notification Engine</b>
 
-Desktop Engine can fetchh the Notification from a Endpoint(API) and then add the details from the Endpoint response to the system tray
+Desktop Engine can fetch the Notification from a Endpoint(API) and then add the details from the Endpoint response to the system tray
 
 
 Download the Source code and add change the Application properties to add the URL to fetch the notification from and add a vm parameter while runing the jar 
