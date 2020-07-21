@@ -4,16 +4,16 @@ Download the Source code and add change the Application properties to add the UR
 
 -Djava.awt.headless=false
 
- TO Build a Jer with properties file ADD the following  to pom.xml and build the jar
+ TO Build a Jar with properties file ADD the following  to pom.xml and build 
  
- <pre>
- <build>
-    <resources>
-        <resource>
-            <directory>src/main/java</directory>
-            <includes>
-                <include>**/*.properties</include>
-            </includes>
-        </resource>
-    </resources>
-    </pre>
+```
+       <build>
+          <resources>
+              <resource>
+                  <directory>src/main/java</directory>
+                  <includes>
+                      <include>**/*.properties</include>
+                  </includes>
+              </resource>
+          </resources>
+  ```
