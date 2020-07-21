@@ -6,7 +6,7 @@ Download the Source code and add change the Application properties to add the UR
 
  TO Build a Jer with properties file ADD the following  to pom.xml and build the jar
  
- 
+ <pre>
  <build>
     <resources>
         <resource>
@@ -16,3 +16,4 @@ Download the Source code and add change the Application properties to add the UR
             </includes>
         </resource>
     </resources>
+    </pre>
