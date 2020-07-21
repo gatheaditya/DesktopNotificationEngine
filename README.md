@@ -7,6 +7,9 @@ Download the Source code and add change the Application properties to add the UR
 
 <b>-Djava.awt.headless=false</b>
 
+THe Notification is Configured to Trigger Every 5 Sec can be changed by change the cron Expression in the porperties file
+for detailed cron expression list please
+
  TO Build a Jar with properties file ADD the following  to pom.xml and build 
  
 ```
