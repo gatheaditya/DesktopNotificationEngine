@@ -49,7 +49,7 @@ public class EncryptionUtils {
     public static void main(String[] args) {
 
         String data = "This is not easy as you think";
-        String key = "tttttttttttttt";
+        String key = "ttttttttttttt";
         String encrypted = encrypt(key, data);
         System.out.println(encrypted);
         System.out.println(decrypt(key, encrypted));
